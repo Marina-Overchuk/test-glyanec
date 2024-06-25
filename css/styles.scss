@@ -125,6 +125,16 @@ h1 {
     font-size: 90px;
   }
 }
+h2 {
+  color: $black;
+  line-height: 1.25;
+  font-weight: 800;
+  font-size: calc(28px + (50 - 28) * ((100vw - 380px) / (1920 - 380)));
+
+  @media screen and (min-width: 1921px) {
+    font-size: 50px;
+  }
+}
 
 h5 {
   color: $black;
@@ -767,4 +777,32 @@ header {
   width: 18px;
   height: auto;
   object-fit: contain;
+}
+//check test 
+.check-test {
+  padding-block: 100px;
+  & h2 {
+   margin-bottom: 50px; 
+  }
+}
+.check-test__wrap {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  @media screen and (max-width: 991px) {
+    flex-direction: column;
+  }
+  & img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    @media screen and (max-width: 991px) {
+      width: 100%;
+    }
+  }
+  & .check-test__text {
+    padding-block: 37px;
+    max-height: 390px;
+    overflow: auto;
+  }
 }

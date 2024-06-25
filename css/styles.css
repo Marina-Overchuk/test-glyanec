@@ -633,6 +633,7 @@ header {
   padding: 104px 0 116px;
   background: url(../img/hero-bg.png) no-repeat cover;
   position: relative;
+  overflow: hidden;
 }
 .hero .container {
   position: relative;

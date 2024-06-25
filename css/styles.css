@@ -168,6 +168,7 @@ p {
   background: transparent;
   padding: 20px 67px;
   border-radius: 5px;
+  background: linear-gradient(134.04deg, #FFDF00 -7.01%, #FFB800 109.07%);
 }
 @media screen and (max-width: 767px) {
   .btn-main {
@@ -646,7 +647,7 @@ header {
 .hero__abs-img {
   position: absolute;
   right: -8%;
-  top: 38px;
+  top: -70px;
   width: 1075px;
   height: auto;
   max-width: 58%;
